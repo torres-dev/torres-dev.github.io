@@ -1,0 +1,8 @@
+body{
+    background-image:url(fundos/photo.jpg);
+    background-size: cover;
+}
+
+h1{color:rgba(139, 0, 0, 0.411)}
+
+#contato{color:darkred}
