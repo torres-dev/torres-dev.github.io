@@ -1,0 +1,33 @@
+body{
+    background-image:url(/img/fundos/woods.jpg);
+    background-attachment: fixed;
+}
+
+.header{
+    background-color: grey;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 40px;
+}
+
+h1{color: rgba(221, 34, 9, 0.945) ;
+text-align: center;
+text-shadow: 1px 1px;
+}
+
+h2{color:whitesmoke;
+    text-align: center;
+}
+
+h3{color:rgb(184, 115, 25);
+    text-align: center;
+}
+
+#contato{color:white;
+    /*text-shadow: 4px 4px;*/
+}
+
+.foto-perfil {
+    border: 5px groove #cecece ;
+    border-radius: 70px ;
+}
