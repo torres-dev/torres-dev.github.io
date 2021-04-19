@@ -1,7 +1,8 @@
 
 
 body{
-    background:#dfdfdf;
+    background: rgb(164,23,85);
+    background: radial-gradient(circle, rgba(164,23,85,1) 0%, rgba(42,124,19,1) 100%);
     font-family:'Raleway', sans-serif;
     color:rgb(34, 34, 34);
     margin:0;
@@ -78,6 +79,7 @@ h5{
 p{
     line-height: 25px;
     margin-top: 0;
+    
     }
 
 .social-icons{
@@ -111,7 +113,9 @@ p{
     body,.container, .profile, h1,h2.h3,h4,h5,p,.footer {
         width:100%; 
         text: 200px;
-        margin:15px;
+        margin: 10px;
+        text-align: justify;
     }
     
 }
+
