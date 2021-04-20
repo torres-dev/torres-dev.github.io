@@ -124,31 +124,53 @@ a:hover{
         text-align: justify;
 
     }
-    
-}
-
-@media (max-width: 600px)  {
     .profile{
         padding:30px;
     
     }
-}
-@media (max-width: 600px){
     .h2{
         text: 200px;
         margin: 15px;
         text-align:center;
     }
-}
 
-@media (max-width: 600px){
     body{
         width:100%; 
         text: 200px;
         margin: 0 15px;
         
     }
+
 }
+
+
+@media (max-width: 450px) {
+    .container, .profile, h1,h3,h4,h5,.footer {
+    width:90%; 
+    text: 100px;
+    margin: 10px;
+    text-align: justify;
+
+}
+.profile{
+    padding:30px;
+
+}
+.h2{
+    text: 100px;
+    margin: 15px;
+    text-align:center;
+}
+
+body{
+    width:100%; 
+    text: 100px;
+    margin: 0 15px;
+    
+}
+
+}
+
 
 
 
