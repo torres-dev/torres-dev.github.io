@@ -1,8 +1,8 @@
 
 
 body{
-    background: rgb(164,23,85);
-    background: radial-gradient(circle, rgba(164,23,85,1) 0%, rgba(42,124,19,1) 100%);
+    background: rgb(42,124,19);
+    background: radial-gradient(circle, rgba(42,124,19,1) 0%, rgba(237,224,230,1) 100%);
     font-family:'Raleway', sans-serif;
     color:rgb(34, 34, 34);
     margin:0;
@@ -79,7 +79,8 @@ h5{
 p{
     line-height: 25px;
     margin-top: 0;
-    
+    text-align: justify;
+        
     }
 
 .social-icons{
@@ -109,13 +110,45 @@ p{
     padding: 10px 0;        
 }
 
+a:hover{
+    color: green;
+    font-weight:bold ;
+}
+
+
 @media (max-width: 600px)  {
-    body,.container, .profile, h1,h2.h3,h4,h5,p,.footer {
-        width:100%; 
+    .container, .profile, h1,h3,h4,h5,.footer {
+        width:90%; 
         text: 200px;
         margin: 10px;
         text-align: justify;
+
     }
     
 }
+
+@media (max-width: 600px)  {
+    .profile{
+        padding:30px;
+    
+    }
+}
+@media (max-width: 600px){
+    .h2{
+        text: 200px;
+        margin: 15px;
+        text-align:center;
+    }
+}
+
+@media (max-width: 600px){
+    body{
+        width:100%; 
+        text: 200px;
+        margin: 0 15px;
+        
+    }
+}
+
+
 
