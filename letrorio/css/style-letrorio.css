@@ -1,0 +1,131 @@
+body{
+    background: rgb(42,124,19);
+    background: linear-gradient(90deg, rgba(42,124,19,1) 0%, rgba(237,224,230,1) 50%, rgba(252,69,162,1) 100%);
+}
+
+.header{
+    background: rgb(237,224,230);
+    background: radial-gradient(circle, rgba(237,224,230,1) 50%, rgba(0,0,0,1) 100%);
+    text-align: center;
+    padding: 70px 0;
+    border: 70px 0;
+    font-size: 25px;
+    border-radius: 50% 30px 50% 30px;
+    font-family: 'Original Surfer', 'cursive';
+    margin: 50px;
+
+    
+}
+
+.header ::first-letter{
+    color: rgba(78, 19, 19, 0.863);
+    font-family: 'Libre Baskerville', serif;
+    font-size: 90px;
+    
+
+}
+
+.container{
+    display:flex;
+}
+
+.navbar{
+    width: 30%;
+    background: #a3a3a3;
+    padding: 30px;
+    background: none;
+}
+
+.content{
+    width: 70%;
+    background: #b9b5b5;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+li{
+    list-style:none;
+    border: 25px;
+    margin: 5px;
+    padding: 10px 30px;
+    text-align: center;
+    background: rgb(237,224,230);
+    background: radial-gradient(circle, rgba(237,224,230,1) 50%, rgba(0,0,0,1) 100%);
+    border-radius: 15px 0 15px 0;
+
+    }
+
+li a {
+    text-decoration: none;
+    color:black;
+    
+}
+
+p{
+ text-align: justify;
+}
+
+h1{color: rgba(180, 38, 20, 0.945) ;
+text-align: center;
+text-shadow: 1px 1px;
+font-family: monospace;
+font-weight: bolder;
+}
+
+h2{color:rgb(33, 138, 23);
+    text-align: center;
+}
+
+h3{color:rgb(184, 115, 25);
+    text-align: center;
+}
+
+#contato{color:white;
+    /*text-shadow: 4px 4px;*/
+}
+
+.foto-perfil {
+    border: 5px groove #cecece ;
+    border-radius: 70px ;
+}
+
+.footer{
+    margin-top:40px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 10px 0;        
+}
+
+@media (max-width: 600px){
+
+
+    .header{
+        background: rgb(237,224,230);
+        background: radial-gradient(circle, rgba(237,224,230,1) 20%, rgba(0,0,0,1) 100%);
+        text-align: center;
+        padding: 50px 0;
+        font-size: 20px;
+        border-radius: 30px 50% 30px 50%;
+        font-family: 'Lobster', cursive;
+    }
+
+    
+    h2{
+        color: black;
+    }
+}
+
+@media (max-width: 450px){
+.header{
+    background: rgb(237,224,230);
+    background: radial-gradient(circle, rgba(237,224,230,1) 5%, rgba(0,0,0,1) 100%);
+    text-align: center;
+    padding: 50px 0;
+    font-size: 20px;
+    border-radius: 50%;
+    font-family: 'Lobster', cursive;
+
+}
+
+}
